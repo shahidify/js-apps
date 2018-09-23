@@ -1,0 +1,23 @@
+html {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    margin-top: 200px;
+  }
+
+  #list {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+ }
