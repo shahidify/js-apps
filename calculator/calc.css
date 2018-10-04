@@ -8,6 +8,12 @@ body {
   display: flex;
   align-content: space-around;
   justify-content: center;
+  background-image: url("../images/abacus.jpg");
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .calc {
