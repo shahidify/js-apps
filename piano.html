@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Play Piano</title>
-  <link rel="stylesheet" href="./piano-app/piano.css">
-</head>
-<body>
-  <div class="main">
-    <span>Use Keyboard keys </span>
-    <span class="legend">A</span>
-    <span class="legend">S</span>
-    <span class="legend">D</span>
-    <span class="legend">F</span>
-    <span class="legend">G</span>
-    <span class="legend">H</span>
-    <span class="legend">J</span>
-    <span>to play</span>
-  </div>
-  <div class="piano">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Play Piano</title>
+    <link rel="stylesheet" href="./piano-app/piano.css" />
+  </head>
+  <body>
+    <div class="main">
+      <span>Use Keyboard keys </span> <span class="legend">A</span>
+      <span class="legend">S</span> <span class="legend">D</span>
+      <span class="legend">F</span> <span class="legend">G</span>
+      <span class="legend">H</span> <span class="legend">J</span>
+      <span>to play</span>
+    </div>
+    <div class="piano">
       <div data-key="65" class="key">
         <h3>DO</h3>
+        <h5>( SA )</h5>
       </div>
       <div data-key="83" class="key">
         <h3>RE</h3>
+        <h5>( RE )</h5>
       </div>
       <div data-key="68" class="key">
         <h3>MI</h3>
+        <h5>( GA )</h5>
       </div>
       <div data-key="70" class="key">
         <h3>FA</h3>
+        <h5>( MA )</h5>
       </div>
       <div data-key="71" class="key">
         <h3>SO</h3>
+        <h5>( PA )</h5>
       </div>
       <div data-key="72" class="key">
         <h3>LA</h3>
+        <h5>( DA )</h5>
       </div>
       <div data-key="74" class="key">
         <h3>SI</h3>
+        <h5>( NI )</h5>
       </div>
-  </div>
-  
-  <audio data-key="65" src="./piano-app/sound/1-do.wav"></audio>
-  <audio data-key="83" src="./piano-app/sound/2-re.wav"></audio>
-  <audio data-key="68" src="./piano-app/sound/3-mi.wav"></audio>
-  <audio data-key="70" src="./piano-app/sound/4-fa.wav"></audio>
-  <audio data-key="71" src="./piano-app/sound/5-sol.wav"></audio>
-  <audio data-key="72" src="./piano-app/sound/6-la.wav"></audio>
-  <audio data-key="74" src="./piano-app/sound/7-si.wav"></audio>
+    </div>
 
-  <script src="./piano-app/piano.js"></script>
-</body>
+    <audio data-key="65" src="./piano-app/sound/1-do.wav"></audio>
+    <audio data-key="83" src="./piano-app/sound/2-re.wav"></audio>
+    <audio data-key="68" src="./piano-app/sound/3-mi.wav"></audio>
+    <audio data-key="70" src="./piano-app/sound/4-fa.wav"></audio>
+    <audio data-key="71" src="./piano-app/sound/5-sol.wav"></audio>
+    <audio data-key="72" src="./piano-app/sound/6-la.wav"></audio>
+    <audio data-key="74" src="./piano-app/sound/7-si.wav"></audio>
+
+    <script src="./piano-app/piano.js"></script>
+  </body>
 </html>
