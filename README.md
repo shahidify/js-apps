@@ -6,3 +6,4 @@ This repository contains different JavaScript small apps. Main purpose is to Lea
 - [ ] SaReGaMa using Audio files
 - [ ] Text 2 Speech
 - [ ] Speech 2 Text
+- [ ] Video App
